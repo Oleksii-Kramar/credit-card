@@ -32,6 +32,9 @@ z-index
 body {
     font-family: 'Montserrat', sans-serif;
 }
+p .header-logo {
+
+}
 
 .btn {
     cursor: pointer;
@@ -68,17 +71,25 @@ body {
     width: 50%;
 }
 
+
 .header-logo {
-    font-size: 36px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 70px;
+    left: 20px;
+    font-size: 18px;
+    margin: 30px;
+    
 }
 
-.header-logo, 
+ 
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
 }
+
 
 
 .header-text {
